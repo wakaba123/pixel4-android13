@@ -1,6 +1,6 @@
 <manifest>
-  <remote name="aosp" fetch="https://android.googlesource.com/" />
-  <default revision="android-msm-coral-4.14-android12-qpr3"
+  <remote name="aosp" fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" />
+  <default revision="android-msm-coral-4.14-android13"
     remote="aosp" sync-j="4" />
   <project path="private/msm-google" name="kernel/msm" >
     <linkfile src="build.config.bonito" dest="build.config" />
